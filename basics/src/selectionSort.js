@@ -1,6 +1,6 @@
 export function selectionSort(list) {
-  // N * (N + 3)
-  for (let i = 0; i < list.length; i++) {
+  // (N - 1) * (N + 3)
+  for (let i = 0; i < list.length - 1; i++) {
     let posMin = i;
 
     // N * 1 * 1 = N
