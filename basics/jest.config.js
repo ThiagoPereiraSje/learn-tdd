@@ -8,7 +8,7 @@ module.exports = {
   // automock: false,
 
   // Stop running tests after `n` failures
-  bail: true,
+  bail: 1,
 
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "/tmp/jest_rs",
@@ -17,7 +17,7 @@ module.exports = {
   clearMocks: true,
 
   // Indicates whether the coverage information should be collected while executing the test
-  collectCoverage: true,
+  collectCoverage: false,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
   collectCoverageFrom: ["src/**"],
