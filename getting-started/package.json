@@ -1,9 +1,10 @@
 {
-  "name": "starting",
+  "name": "getting-started",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "babel-node src/index.js",
     "test": "jest",
     "build": "babel src -s -D -d dist --presets env"
   },
