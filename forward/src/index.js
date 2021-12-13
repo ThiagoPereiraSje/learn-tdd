@@ -1,3 +1,3 @@
-import { Hello } from "./hello";
+const { Hello } = require("./hello");
 
 console.log(Hello());

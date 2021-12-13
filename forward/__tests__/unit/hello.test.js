@@ -1,4 +1,4 @@
-import { Hello } from "../../src/hello";
+const { Hello } = require("../../src/hello");
 
 describe("Hello function", () => {
   test('When say hello should be return "Hello World!"', () => {

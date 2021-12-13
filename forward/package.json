@@ -4,21 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "babel-node src/index.js",
-    "test": "jest",
-    "build": "babel src -s -D -d dist --presets env"
+    "start": "node src/index.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Thiago Pereira",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-jest": "^27.4.4",
-    "babel-preset-env": "^1.7.0",
     "jest": "^27.4.4"
   },
-  "dependencies": {
-    "knex": "^0.95.14",
-    "mysql": "^2.18.1"
-  }
+  "dependencies": {}
 }

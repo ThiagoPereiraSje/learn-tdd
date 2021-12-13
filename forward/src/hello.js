@@ -1,3 +1,3 @@
-export function Hello() {
+exports.Hello = function () {
   return "Hello World!";
-}
+};
